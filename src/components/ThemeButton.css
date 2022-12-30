@@ -1,0 +1,17 @@
+.theme-button-div {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.theme-button img {
+    height: 25px;
+}
+
+.theme-button img:hover {
+    cursor: pointer;
+}
+
+.dark {
+    background-color: #1E1F22;
+    color: white;
+}

@@ -1,0 +1,30 @@
+.option-box {
+    display: flex;
+    align-items: center;
+    padding: 15px 25px;
+    width: 400px;
+    min-width: fit-content;
+    background-color: transparent;
+    border-radius: 6px;
+    font-weight: 600;
+    margin: 20px 20px 0 0;
+}
+
+.option-box.light {
+    border: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.option-box.light:hover {
+    cursor: pointer;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+.option-box.dark {
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.option-box.dark:hover {
+    cursor: pointer;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
